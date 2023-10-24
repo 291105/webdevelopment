@@ -1,0 +1,18 @@
+h1, h2, h3, p, div{
+    font-family:Helvetica;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 40px;
+}
+header h1, h2{
+    color: #EDF2F4;
+}
+header, footer, education{
+    padding: 30px;
+}
+a{
+    color: #EF233C;
+}
