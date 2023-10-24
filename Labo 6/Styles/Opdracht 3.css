@@ -18,4 +18,6 @@ a{
 }
 header, footer{
     color: #8D99AE;
+
+    margin: 10px;
 }
