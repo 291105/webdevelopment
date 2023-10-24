@@ -7,7 +7,7 @@ h1{
 h2{
     font-size: 40px;
 }
-header h1, h2{
+header> h1, h2{
     color: #EDF2F4;
 }
 header, footer, .education{
