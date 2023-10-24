@@ -18,6 +18,9 @@ a{
 }
 header, footer{
     color: #8D99AE;
-
+    background-color: #2B2D42;
     margin: 10px;
+}
+education{
+    background-color: #8D99AE;
 }
