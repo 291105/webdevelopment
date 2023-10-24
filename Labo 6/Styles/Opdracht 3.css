@@ -1,5 +1,5 @@
 h1, h2, h3, p, div{
-    font-family:Helvetica;
+    font-family:"Helvetica";
 }
 h1{
     font-size: 80px;
@@ -10,7 +10,7 @@ h2{
 header h1, h2{
     color: #EDF2F4;
 }
-header, footer, education{
+header, footer, .education{
     padding: 30px;
 }
 a{
@@ -26,6 +26,6 @@ header{
 footer{
     margin-top: 10px;
 }
-education{
+.education{
     background-color: #8D99AE;
 }
