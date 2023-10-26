@@ -2,7 +2,7 @@
     list-style-type: none;
 }
 .checked{
-    background-image: url("Labo 6/checkbox.png");
+    background-image: url("../checkbox.png");
     background-size: 20px;
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -10,7 +10,7 @@
     margin-bottom: 20px;
 }
 li {
-    background-image: url("Labo 6/checkboxempty.png");
+    background-image: url("../checkboxempty.png");
     background-size: 15px;
     background-repeat: no-repeat;
     padding-left: 25px;
