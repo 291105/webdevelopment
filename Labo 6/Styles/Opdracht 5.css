@@ -2,5 +2,6 @@
     padding-left: 20px;
     background-image: url(../link.png);
     background-position: left;
-    background-size: 16px 16px;
-}
+    background-size: 16px;
+     background-repeat: no-repeat;
+ }
