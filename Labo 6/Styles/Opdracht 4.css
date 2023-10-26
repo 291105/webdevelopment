@@ -1,0 +1,12 @@
+body{
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color: silver;
+}
+h1{
+    font-variant: all-petite-caps;
+    background-color: red;
+}
+a:hover{
+    border: 2px solid rebeccapurple;
+}
