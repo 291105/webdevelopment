@@ -1,0 +1,37 @@
+h1{
+    color: darkred;
+    font-family: Forte;
+    font-size: 80px;
+    background-color: bisque;
+}
+section>ul{
+    color: white;
+    font-family: Bahnschrift;
+}
+body{
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+a{
+    font-family: "Times New Roman";
+    color: rebeccapurple;
+    text-decoration: none;
+}
+a:hover{
+    border: 2px solid rebeccapurple;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+p{
+    font-family: fantasy;
+    color: silver;
+    text-decoration: underline dashed;
+    font-size: 30px;
+}
+ul{
+    background-color: #2B2D42;
+    padding: 20px;
+}

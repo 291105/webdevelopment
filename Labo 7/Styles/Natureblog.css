@@ -1,6 +1,7 @@
 body {
 width: 95%;
 margin: auto;
+    border: 5px darkblue;
 }
 nav>a{
     color: lawngreen;
