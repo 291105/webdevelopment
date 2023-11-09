@@ -7,29 +7,19 @@ tr:first-child td{
 }
 td{
     border: 1px dotted black;
-
 }
 thead{
     background-color: rgb(170,170,200);
 }
-
-
 .vrijedag{
     background-color:  rgb(250,120,120);
 }
-
 td:first-child, td:last-child{
     background-color: rgb(255, 220, 220);
 }
-
-
-
 tr td.lastmonth{
-    background-color: #cfd1d4;
-    color: #b0b3b8;
-}
-a:link,a:visited,a:active,a:hover{
-    color: blue;
+    background-color: grey;
+    color: lightgray;
 }
 #daynames td{
     background-color: rgb(35,37,70);
