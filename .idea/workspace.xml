@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,11 +52,11 @@
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 3\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 8\images" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 7" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 6" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 6\Images" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 6\Styles" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 3\Images" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,7 +89,7 @@
       <workItem from="1698155818225" duration="12156000" />
       <workItem from="1699368681862" duration="3755000" />
       <workItem from="1699714442084" duration="639000" />
-      <workItem from="1700140065993" duration="4394000" />
+      <workItem from="1700140065993" duration="11482000" />
     </task>
     <servers />
   </component>

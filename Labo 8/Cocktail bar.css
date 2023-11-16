@@ -1,0 +1,58 @@
+.rechts{
+    float: right;
+    box-sizing: border-box;
+    width: 25%;
+    border: cadetblue solid 1px;
+    text-align: center;
+    padding: 5px;
+    background-image: url("images/cocktail.gif");
+    background-repeat: repeat-x;
+}
+#links{
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+}
+#links h1{
+    color: #007e7e;
+}
+#links h2{
+    color: #007e7e;
+}
+footer{
+    clear: both;
+    font-size: 50%;
+    text-align: center;
+}
+IMG.centreren{
+    display: block;
+    margin: auto;
+}
+body{
+    font-family: Verdana;
+    font-size: 1.2em;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+a{
+    text-decoration: underline;
+    color: black;
+}
+a:hover.hover{
+    color: saddlebrown;
+}
+#guarantee{
+    text-indent: 25px;
+    margin: 30px;
+    padding: 20px;
+    color: rgb(44 44 44);
+    background-color: #a7cece;
+    border: 5px dotted white;
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-size: 45px;
+}
