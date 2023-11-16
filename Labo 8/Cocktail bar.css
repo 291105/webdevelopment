@@ -1,4 +1,4 @@
-.rechts{
+#rechts{
     float: right;
     box-sizing: border-box;
     width: 25%;
@@ -8,15 +8,23 @@
     background-image: url("images/cocktail.gif");
     background-repeat: repeat-x;
 }
+#rechts h1{
+    margin-top: 50px;
+}
+.color1{
+  color: darkred;
+}
+.color2{
+    color: cornflowerblue;
+}
+.color3{
+    color: rebeccapurple;
+}
 #links{
     float: left;
-    box-sizing: border-box;
     width: 70%;
 }
-#links h1{
-    color: #007e7e;
-}
-#links h2{
+#links h1,h2{
     color: #007e7e;
 }
 footer{
@@ -29,8 +37,10 @@ IMG.centreren{
     margin: auto;
 }
 body{
-    font-family: Verdana;
+    font-family: "Verdana Helvetica Arial";
     font-size: 1.2em;
+    margin: auto;
+    width: 95%;
 }
 h1{
     font-size: 150%;
