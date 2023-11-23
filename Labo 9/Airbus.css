@@ -8,6 +8,7 @@ section{
     float: left;
     width: 75%;
     display: inline-block;
+    margin-right: 10px;
 }
 article>img{
     width: 180px;
@@ -15,6 +16,7 @@ article>img{
     border: 1px dotted black;
     padding: 10px;
     background-color: white;
+    margin: 20px;
 }
 section>article{
     background-color: #999999;
@@ -26,8 +28,8 @@ header{
 }
 header>img{
     position: absolute;
-    margin-right: 90px;
-    margin-bottom: 60px;
+    padding-right: 90px;
+    padding-bottom: 60px;
     top: 100px;
 }
 header>p:first-of-type{
@@ -44,8 +46,8 @@ header>p:last-of-type{
 aside{
     float: right;
     width: 25%;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: inline-block;
     border: 1px #999999;
     background-color: #dddddd;
@@ -85,7 +87,5 @@ li>a:hover{
 }
 footer{
     width: 95%;
-}
-li,ul{
-    text-align: center;
+    clear: both;
 }
