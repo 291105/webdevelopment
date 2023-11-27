@@ -8,7 +8,9 @@ section{
     float: left;
     width: 75%;
     display: inline-block;
-    margin-right: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: relative;
 }
 article>img{
     width: 180px;
@@ -25,6 +27,12 @@ header{
     background-image: url("Images/bgsky3.jpg");
     height: 200px;
     color: darkblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span{
+    color: blue;
+    font-style: italic;
 }
 header>img{
     position: absolute;
@@ -44,6 +52,7 @@ header>p:last-of-type{
     color: darkblue;
 }
 aside{
+    position: relative;
     float: right;
     width: 25%;
     padding-left: 10px;
@@ -53,6 +62,8 @@ aside{
     background-color: #dddddd;
     color: #666666;
     font-size: 90%;
+    margin-left: 0;
+    box-sizing: border-box;
 }
 h3{
     background-color: blue;
@@ -74,13 +85,19 @@ section>img{
     font-style: italic;
 }
 nav{
-    display: inline-block;
+    clear: both;
     background-color: #666666;
     color: white;
     line-height: 2ems;
-    padding-left: 120px;
     width: 95%;
-    float: left;
+}
+nav div{
+    padding-left: 120px;
+    display: inline-block;
+}
+nav div div{
+    display: inline-block;
+    margin-left: 120px;
 }
 li>a:hover{
     color: red;
