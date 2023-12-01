@@ -1,0 +1,8 @@
+div div div:nth-of-type(even){
+    background-color: slategrey;
+    height: 500px;
+}
+div div div:nth-of-type(odd){
+    background-color: #8D99AE;
+    height: 500px;
+}
