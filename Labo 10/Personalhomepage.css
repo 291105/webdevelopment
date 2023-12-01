@@ -1,0 +1,46 @@
+h1{
+    color: darkred;
+    font-family: Forte;
+    font-size: 80px;
+    background-color: bisque;
+}
+h2{
+    color: #6f42c1;
+    background-color: #052c65;
+}
+section>ul{
+    color: white;
+    font-family: Bahnschrift;
+}
+body{
+    background-color: white;
+}
+a{
+    font-family: "Times New Roman";
+    color: rebeccapurple;
+    text-decoration: none;
+}
+a:hover{
+    border: 2px solid rebeccapurple;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+p{
+    font-family: fantasy;
+    color: silver;
+    text-decoration: underline dashed;
+    font-size: 30px;
+}
+ul{
+    background-color: #2B2D42;
+}
+table{
+    background-color: #58151c;
+    border: 1px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
