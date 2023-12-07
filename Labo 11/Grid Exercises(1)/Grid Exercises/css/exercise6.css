@@ -1,2 +1,112 @@
-
+main{
+    display: grid;
+    gap: 10px;
+}
+main .block{
+    padding: 10px;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+.block.block1{
+    background-color: deeppink;
+}
+.block.block2{
+    background-color: rebeccapurple;
+}
+.block.block3{
+    background-color: darkslateblue;
+}
+.block.block4{
+    background-color: cadetblue;
+}
+@media screen and (min-width: 320px) and (max-width: 772px){
+    main{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+    }
+    .block.block1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+       grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .block.block2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .block.block3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .block.block4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+@media screen and (min-width: 772px) and (max-width: 992px){
+    main{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+    }
+    .block.block1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .block.block2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .block.block3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .block.block4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+@media screen and (min-width: 993px){
+    main{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(3, auto);
+    }
+    .block.block1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .block.block2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .block.block3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .block.block4{
+        grid-row-start: 3;
+        grid-row-end: 4;
+}
+}
 
