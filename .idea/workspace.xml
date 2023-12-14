@@ -22,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -53,11 +56,11 @@
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 3\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 12" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 11" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 11\html" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 11\Grid Exercises(1)\Grid Exercises\css" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 10" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Bootstrap" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +106,10 @@
       <workItem from="1701714801508" duration="1000" />
       <workItem from="1701787181828" duration="4563000" />
       <workItem from="1701852867529" duration="1618000" />
-      <workItem from="1701956097731" duration="6502000" />
+      <workItem from="1701956097731" duration="7296000" />
+      <workItem from="1701964941980" duration="895000" />
+      <workItem from="1702395654637" duration="5928000" />
+      <workItem from="1702558622804" duration="5790000" />
     </task>
     <servers />
   </component>
