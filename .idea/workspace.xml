@@ -16,6 +16,7 @@
         <option value="tsconfig.json" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gebruiker/OneDrive - Hogeschool VIVES/Documenten/GitHub/webdevelopment&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gebruiker/OneDrive - Hogeschool VIVES/Documenten/GitHub/webdevelopment/Labo 14&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -52,17 +53,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 14" />
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 14\Inhoud" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 10" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 4" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 3\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 14" />
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 14\Arrays" />
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 14\Inhoud" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 13" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 13\Inhoud\styles" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\BeginSituatie_Kitchn\images" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 12" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,6 +119,9 @@
       <workItem from="1705934535328" duration="18667000" />
       <workItem from="1707408848414" duration="691000" />
       <workItem from="1707409555880" duration="1166000" />
+      <workItem from="1707410812092" duration="528000" />
+      <workItem from="1708184102067" duration="2412000" />
+      <workItem from="1708783476512" duration="3887000" />
     </task>
     <servers />
   </component>
