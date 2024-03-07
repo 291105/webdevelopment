@@ -1,0 +1,27 @@
+#head{
+    background-color: slategrey;
+    font-family: Helvetica;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+.semester{
+    background-color: dimgray;
+    color: whitesmoke;
+}
+ul{
+    background-color: lightgray;
+    margin: 20px 20px 20px 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline dashed;
+}
+h2{
+    margin-left: 50px;
+}
+a{
+    margin: 10px;
+    color: darkgoldenrod;
+    font-style: italic;
+}
