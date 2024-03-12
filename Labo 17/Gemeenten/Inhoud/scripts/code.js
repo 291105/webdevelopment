@@ -16,7 +16,7 @@ const voegGemeentenToe= () => {
 
     let lijst= document.getElementById("gemeenten");
     for (let i=0; i<gemeenten.length; i++){
-        lijst.innerHTML= <option value=""> lijst[i] </option>
+        lijst.innerHTML+= '<option value=" ' + gemeenten[i] +' " > ' + gemeenten[i] + ' </option>';
     }
 }
 window.addEventListener("load", setup); 
