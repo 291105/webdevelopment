@@ -9,7 +9,7 @@ const voegGemeentenToe= () => {
         if (invoer.toLowerCase().localeCompare("stop") === 0) {
             stoppen = true;
         } else {
-            gemeenten.push(invoer);
+            gemeenten.push(invoer.toLowerCase());
         }
     }
     gemeenten.sort();
