@@ -5,15 +5,13 @@ const setup = () => {
 
 const veranderDeInHet= () =>{
     let tekst= document.getElementById("tekst").value.toLowerCase();
-    let nieuweTekst="";
-    for (let i=0; i<tekst.length; i++){
-        if (tekst.substring(i, i++).localeCompare("de")){
-            tekst.replace(tekst.substring(i, i+2), "het");
-        }
-        else{
-            nieuweTekst+= tekst[i];
+    let arrayTekst= tekst.split(" ");
+    for (let i=0; i<arrayTekst.length; i++){
+        if(arrayTekst[i].localeCompare("de")===0){
+            arrayTekst[i]= "het";
         }
     }
-    console.log(nieuweTekst);
+    let vervangZin= arrayTekst.join(" ");
+    console.log(vervangZin);
 }
 window.addEventListener("load", setup); 

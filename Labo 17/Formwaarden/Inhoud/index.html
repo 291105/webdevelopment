@@ -6,26 +6,41 @@
     <title>Title</title></head>
 <body>
 
+<form>
 <label for="roker">Is roker</label>
 <input type="checkbox" id="roker">
 <br>
 
 <p>Moedertaal: </p>
 <label for="Nederlands">Nederlands</label>
-<input type="radio" name="moedertaal" id="Nederlands">
+<input type="radio" name="moedertaal" id="Nederlands" value="Nederlands">
 <label for="Frans">Frans</label>
-<input type="radio" name="moedertaal" id="Frans">
+<input type="radio" name="moedertaal" id="Frans" value="Frans">
 <label for="Engels">Engels</label>
-<input type="radio" name="moedertaal" id="Engels">
+<input type="radio" name="moedertaal" id="Engels" value="Engels">
 <br>
 
 <label for="buurland">Favoriete buurland: </label>
 <select id="buurland" name="buurland">
-    <option>Frankrijk</option>
-    <option>Nederland</option>
-    <option>Duitsland</option>
-    <option>Luxemburg</option>
+    <option value="Frankrijk">Frankrijk</option>
+    <option value="Nederland">Nederland</option>
+    <option value="Duitsland">Duitsland</option>
+    <option value="Luxemburg">Luxemburg</option>
 </select>
+<br>
+
+<label for="bestelling">Bestelling: </label>
+<select id="bestelling" name="bestelling" multiple>
+    <option value="aardappelen">aardappelen</option>
+    <option value="brood">brood</option>
+    <option value="melk">melk</option>
+    <option value="biefstuk">biefstuk</option>
+    <option value="chips">chips</option>
+    <option value="krant">krant</option>
+</select>
+
+<input type="button" value="Toon resultaten" id="button">
+</form>
 <script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
 </body>
 </html>

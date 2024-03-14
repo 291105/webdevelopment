@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title></head>
+<body>
+<form>
+    <div>
+        <label for="First-name">First name: </label>
+        <input type="text" name="First-name" id="First-name" autofocus="autofocus">
+        <span id="errorVoornaam"></span>
+    </div>
+    <div>
+        <label for="Last-name">Last name: </label>
+        <input type="text" name="Last-name" id="Last-name">
+        <span id="errorAchternaam"></span>
+    </div>
+
+    <div>
+        <label for="date">Geboortedatum: </label><span></span>
+        <input type="date" name="date" id="date">
+        <span id="errorDatum"></span>
+    </div>
+
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email adress">
+        <span id="errorEmail"></span>
+    </div>
+
+    <div>
+        <label for="aantalKinderen"> Aantal kinderen:  </label>
+        <input  id="aantalKinderen" type="text" name = "aantalKinderen">
+        <span id="errorAantalKinderen"></span>
+    </div>
+
+    <input id="button" type="button" value="Valideer">
+
+</form>
+
+
+
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
