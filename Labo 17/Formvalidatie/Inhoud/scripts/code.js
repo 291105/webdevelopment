@@ -9,6 +9,7 @@ const valideren= () =>{
     valideerDatum();
     valideerEmail();
     valideerAantalKinderen();
+    proficiat();
 }
     const valideerVoornaam= ()=> {
         let voornaam = document.getElementById("First-name");
@@ -28,15 +29,19 @@ const valideerAchternaam= () =>{
     let achternaam= document.getElementById("Last-name");
     let errorAchternaam= document.getElementById("errorFamilienaam");
     let achternaamTekst = achternaam.value.trim();
-    if(achternaamTekst.length >50){
-        errorAchternaam.innerHTML="Error: Max. 50 karakters";
-        achternaam.className="error";
-    }else if(achternaamTekst.length===0){
+
+    if(achternaamTekst.length===0){
         achternaam.className="error";
         errorAchternaam.innerHTML="Verplicht veld";
+
+    }else if (achternaamTekst.length > 50){
+        achternaam.className="error";
+        errorAchternaam.innerHTML="Error: Max. 50 karakters";
+
     }else{
         achternaam.className="";
-        errorAchternaam.className="";
+        errorAchternaam.innerHTML="";
+
     }
 }
 
@@ -114,6 +119,11 @@ const valideerAantalKinderen = () => {
 
 };
 
-
+const proficiat= () =>{
+    let aantalErrors= document.getElementsByClassName("error");
+    if(aantalErrors.length===0){
+        window.alert("proficiat");
+    }
+}
 
 window.addEventListener("load", setup);
