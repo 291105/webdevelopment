@@ -4,7 +4,8 @@ const setup = () => {
 }
 const kopieer = () => {
     let txtInput = document.getElementById("txtInput");
-    let tekst = txtInput.value; console.log(tekst);
+    let tekst = txtInput.value;
+    console.log(tekst);
     txtOutput.innerHTML=tekst;
 }
 window.addEventListener("load", setup); 

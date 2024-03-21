@@ -1,0 +1,30 @@
+.colorDemo {
+	width:100px;
+	height:100px;
+	border:1px solid black;
+}
+.geheelSlider{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.Kleuren{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.vierkant{
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+#border{
+	width: 40%;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(1, auto	);
+	border: lightgray solid 3px;
+}
