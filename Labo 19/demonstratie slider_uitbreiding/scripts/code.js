@@ -70,12 +70,14 @@ const veranderHoofdVierkantKleur= (event)=>{
 	color[0].style.backgroundColor = nieuweRgb;
 
 
-	let kleuren= document.getElementsByClassName("kleuren");
+	let kleuren= document.querySelectorAll(".individueleKleuren")
+
 	kleuren[0].textContent= "Rood: " + valueRed;
 	kleuren[1].textContent= "Groen: " +valueGreen;
 	kleuren[2].textContent= "Blauw: " + valueBlue;
 
 	let sliderInnerlijk= document.querySelectorAll(".slider");
+	
 	sliderInnerlijk[0].value = valueRed;
 	sliderInnerlijk[1].value = valueGreen;
 	sliderInnerlijk[2].value = valueBlue;

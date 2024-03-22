@@ -70,7 +70,7 @@
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webdevelopment/Labo 5/Opdracht 6/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -148,7 +148,8 @@
       <workItem from="1710932697516" duration="595000" />
       <workItem from="1710959785404" duration="6557000" />
       <workItem from="1711032045150" duration="6402000" />
-      <workItem from="1711038765943" duration="677000" />
+      <workItem from="1711038765943" duration="1210000" />
+      <workItem from="1711105759931" duration="410000" />
     </task>
     <servers />
   </component>
