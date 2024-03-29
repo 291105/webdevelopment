@@ -20,7 +20,7 @@ let startGame = () =>{
     verplaatsenVeranderenImage(); //er komt een afbeelding op het scherm
     let image= document.getElementById("target");
     image.addEventListener("click", controlerenBom); //klikken is controleren bom en daar roep ik veranderen image op
-    clearInterval(global.timeoutId); //zorgen dat er geen interval loopt anders problemen met de tijd
+     //zorgen dat er geen interval loopt anders problemen met de tijd
     global.timeoutId= setInterval(verplaatsenVeranderenImage, global.MOVE_DELAY); //nieuw interval opzetten
 }
 let controlerenBom=()=>{
@@ -33,6 +33,7 @@ let controlerenBom=()=>{
         global.score++;
         tekst.textContent= global.score;
         verplaatsenVeranderenImage();
+        clearInterval(global.timeoutId);
     }
 }
 let verplaatsenVeranderenImage=()=>{
