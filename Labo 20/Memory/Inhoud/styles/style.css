@@ -1,4 +1,18 @@
 img{
     height: 250px;
     width: 250px;
+    margin: 10px;
+    border: solid darkmagenta 10px;
 }
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolommen */
+    grid-template-rows: repeat(3, auto); /* 3 rijen */
+    background-color: slategrey;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin: 50px;
+    justify-items: center;
+}
+
