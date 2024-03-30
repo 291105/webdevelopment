@@ -34,6 +34,7 @@ let controlerenBom=()=>{
         tekst.textContent= global.score;
         verplaatsenVeranderenImage();
         clearInterval(global.timeoutId);
+        setInterval(verplaatsenVeranderenImage, global.MOVE_DELAY);
     }
 }
 let verplaatsenVeranderenImage=()=>{
