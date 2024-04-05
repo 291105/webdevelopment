@@ -10,6 +10,13 @@ let global = {
 }
 
 let zetRandomKaarten = () => {
+    //eerst maak ik image elementen aan
+    for (let i=0; i<12; i++){
+        let img= document.createElement('img');
+        let section= document.getElementById("imagessection");
+        section.appendChild(img);
+    }
+
     //const flipsound= new Audio("../Sound/turningCard.mp3");
     let images = document.getElementsByTagName("img");
     let fotoArray = ["../images/kaart1.jpg", "../images/kaart1.jpg", "../images/kaart2.jpg", "../images/kaart2.jpg",
