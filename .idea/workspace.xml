@@ -44,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gebruiker/OneDrive - Hogeschool VIVES/Documenten/GitHub/webdevelopment/Labo 21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gebruiker/OneDrive - Hogeschool VIVES/Documenten/GitHub/webdevelopment/Labo 22&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -56,21 +56,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 22" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 21" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 20\Memory\Sound" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 20" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 19" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 19\Opdracht 2\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 22" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 21" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 20\Memory\images" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 20" />
       <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\Labo 19" />
-      <recent name="C:\Users\Gebruiker\OneDrive - Hogeschool VIVES\Documenten\GitHub\webdevelopment\js_test_start\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webdevelopment/Labo 5/Opdracht 6/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -158,7 +158,9 @@
       <workItem from="1712579185149" duration="2153000" />
       <workItem from="1713271490226" duration="7065000" />
       <workItem from="1713538102482" duration="5055000" />
-      <workItem from="1713543398120" duration="332000" />
+      <workItem from="1713543398120" duration="388000" />
+      <workItem from="1713876417809" duration="7527000" />
+      <workItem from="1714142929444" duration="9330000" />
     </task>
     <servers />
   </component>
